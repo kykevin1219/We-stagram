@@ -8,28 +8,176 @@
      <link href="style/main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class = "navigator">
-      <nav>
-        <img class = "logo" src = "img/logo.png">
-        <div class = "stick">
+    <nav class = "navigator">
+      <div class = "innerDiv">
+        <div class = "leftPart">
+          <img class = "logo" src = "img/logo.png">
+          <div class = "box"></div>
+          <img class = "letterLogo" src = "img/logo_text.png">
         </div>
-        <img class = "letterLogo" src = "img/logo_text.png">
-        <div class = "searchInput">
-          <img src ="img/magnifier.png" >
-          <input class = "search" type = "text" placeholder = 검색>
+        <div class = "centerPart">
+          <img class = "magnifier" src = "img/magnifier.png">
+          <input class = "search" type = "text" placeholder="검색">
         </div>
-
-      </nav>
-    </div>
-    <div class = main>
+        <div class = "rightPart">
+          <img class = "compass" src = "img/compass.png">
+          <img class = "heart" src = "img/heart.png">
+          <img class = "profile" src = "img/profile.png">
+        </div>
+      </div>
+    </nav>
+    <main>
       <div class = feeds>
         <article>
-
+          <header>
+            <div class = headerLeft>
+              <img class = circleIcon src ="img/wecodeProfile.jpg" >
+              <strong class = wecodeId>wecode_bootcamp</strong>
+            </div>
+            <div class = headerRight>
+              <img class = threeDots src = "img/3dots.jpg">
+            </div>
+          </header>
+          <div class = pic>
+            <img class = mainPic src ="img/IU.jpg">
+          </div>
+          <footer>
+            <div class = footerUpper>
+              <div class = footerUpperLeft>
+                <img class = Like src = "img/heart.png">
+                <img class = comment src = "img/comment.png">
+                <img class = comment src = "img/share.png">
+              </div>
+              <div class = footerUpperRight>
+                <img class = save src = "img/save.png">
+              </div>
+            </div>
+            <div class = footerMiddle>
+              <div class = countLikes>
+                <img class = leejigeum src = "img/이지금.jpg">
+                <div class = countLikesText><strong>이지금</strong>님 <strong>외 6912명</strong>이 좋아합니다 </div>
+              </div>
+              <div class =   postContent>
+                <strong class = userId>wecode_bootcamp</strong>
+                <span class = postComment>위코드에서 진행한 아이유 팬...</span>
+                <span class = seeMore>더 보기</span>
+              </div>
+              <div class = replyCounter>
+                <span>댓글 <strong>43</strong>개 모두 보기</span>
+              </div>
+              <div class = replyArea>
+                <strong class = userId>leejigeum</strong>
+                <span class = commentText>아이유 예쁘다</span>
+              </div>
+              <div class = replyTimer>
+                <span class = repliedTime>42분전</span>
+              </div>
+            </div>
+            <div class = footerBottom>
+                <input class = addComment type = "text" placeholder="댓글 달기...">
+                <button class = uploadComment><strong>게시</strong></button>
+            </div>
+          </footer>
         </article>
       </div>
-      <div class = right>
+      <div class = main-right>
+        <div class = user-info>
+          <img class = user-icon-big src = "img/wecodeProfile.jpg">
+          <div class = user-info-text>
+            <div id = userId>
+              <strong>wecode_bootcamp</strong>
+            </div>
+            <div id = userName>
+              WeCode | 위코드
+            </div>
+          </div>
+        </div>
+        <div class = stories>
+          <div class = story-header>
+            <div class = story-text>
+              스토리
+            </div>
+            <div class = seeAll>
+              모두 보기
+            </div>
+          </div>
+          <div class = stories-scroll>
+            <div class = looper>
+              <div class = looper-wrap>
+                <img class = looper-profile src = "img/looper.jpg">
+              </div>
+              <div>
+                <div class = looper-id>looper</div>
+                <div class = looper-time>1시간전</div>
+              </div>
+            </div>
+            <div class = wework>
+              <div class= wework-wrap>
+                <img class = wework-profile src = "img/wework.jpg">
+              </div>
+              <div>
+                <div class = wework-id>weWork</div>
+                <div class = wework-time>2시간전</div>
+              </div>
+            </div>
+            <div class = ryu>
+              <div class = ryu-wrap>
+                <img class = ryu-profile src = "img/ryu.jpg">
+              </div>
+              <div>
+                <div class = ryu-id>ryu</div>
+                <div class = ryu-time>3시간전</div>
+              </div>
+            </div>
+            <div class = park>
+              <div class = park-wrap>
+                <img class = park-profile src = "img/park.jpg">
+              </div>
+              <div>
+                <div class = park-id>park</div>
+                <div class = park-time>2일전</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = recommendation>
+          <div class = recommend-header>
+            <div class = recommend-text>회원님을 위한 추천</div>
+            <div class = seeAll>모두 보기</div>
+          </div>
+          <div class = recommend-body>
+            <div class = irene>
+              <img class = irene-profile src = "img/irene.jpg">                
+              <div class = irene-wrap>
+                <div id = user-id>irene</div>
+                <div id = user-name>배주현</div>
+              </div>
+              <div class = follow>팔로우</div>
+            </div>
+            <div class = suzy>
+              <img class = suzy-profile src = "img/suzy.jpg">
+              <div class = suzy-wrap>
+                <div id = user-id>suzy</div>
+                <div id = user-name>수지</div>
+              </div>
+              <div class = follow>팔로우</div>
+            </div>
+            <div class = chae>
+              <img class = chae-profile src= "img/chae.jpg">
+              <div class = chae-wrap>
+                <div id = user-id>chaeyeon</div>
+                <div id = user-name>정채연</div>
+              </div>
+              <div class = follow>팔로우</div>
+            </div>
+          </div>
+        </div>
+        <div class = copyright-text>
+          <p>Instagram 정보·지원·홍보 센터·API·채용 정보·<br>개인정보처리방침·약관·디렉터리·프로필·해시태그·<br>언어</p>
+          <p>© 2019 Instagram</p>
+        </div>
       </div>
-    </div>
+    </main>
     <script src="js/main.js"></script>
   </body>
 </html>
