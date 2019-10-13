@@ -195,6 +195,10 @@ strong.userId {
     color : #999999;
 }
 
+.reply {
+    margin-bottom : 3px;
+}
+
 .replyCounter {
     font-size : 14px;
     color : #999!important;

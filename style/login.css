@@ -35,7 +35,8 @@ input:focus {
     border-color: gray;
 }
 
-button {
+.blue-button {
+    opacity : 0.3;
     width : 266px;
     height : 29px;
     margin : 8px 40px;
